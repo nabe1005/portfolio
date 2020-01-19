@@ -1,0 +1,34 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "なべのぽーとふぉりお",
+    "author": "nabe1005",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "deploy": "nuxt generate && firebase deploy"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.25",
+        "@fortawesome/free-brands-svg-icons": "^5.11.2",
+        "@fortawesome/free-regular-svg-icons": "^5.11.2",
+        "@fortawesome/free-solid-svg-icons": "^5.11.2",
+        "@fortawesome/vue-fontawesome": "^0.1.7",
+        "@nuxtjs/bulma": "^1.2.1",
+        "nuxt": "^2.0.0",
+        "nuxt-fontawesome": "^0.4.0"
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "prettier": "^1.16.4",
+        "pug": "^2.0.4",
+        "pug-loader": "^2.4.0",
+        "pug-plain-loader": "^1.0.0",
+        "stylus": "^0.54.7",
+        "stylus-loader": "^3.0.2"
+    }
+}
